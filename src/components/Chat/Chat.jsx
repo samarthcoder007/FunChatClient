@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom';
 import "../../style.css"
 import { Link } from 'react-router-dom';
 
-const ENDPOINT = 'localhost:3000'
+const ENDPOINT = 'https://funchatserver.onrender.com/'
 
 let socket;
 
