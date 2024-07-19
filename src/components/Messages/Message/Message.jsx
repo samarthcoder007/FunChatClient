@@ -10,6 +10,7 @@ const Message = ({message,currentUser}) => {
       ? (
         <div className="messageContainer justifyEnd">
           <p className="sentText pr-10">{currentUser}</p>
+          <p className="sentText pr-10">{message.time}</p>
           <div className="messageBox backgroundBlue">
             <p className="messageText colorWhite">{message.text}</p>
           </div>
@@ -21,6 +22,7 @@ const Message = ({message,currentUser}) => {
               <p className="messageText colorDark">{message.text}</p>
             </div>
             <p className="sentText pl-10 ">{message.name}</p>
+            <p className="sentText pl-10 ">{message.time}</p>
           </div>
         )
   );
